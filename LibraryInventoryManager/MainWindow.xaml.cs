@@ -24,5 +24,25 @@ namespace LibraryInventoryManager
         {
             InitializeComponent();
         }
+
+
+        private void Users_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Users form will be loaded");
+        }
+        private void Inventory_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Inventory form will be loaded");
+        }
+        private void BorrowedBooks_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Borrowed books form will be loaded");
+        }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }
